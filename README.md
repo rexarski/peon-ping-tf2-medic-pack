@@ -7,13 +7,13 @@ A [CESP](https://openpeon.com/spec) (Coding Event Sound Pack) featuring voice li
 Copy this pack to your CESP packs directory:
 
 ```bash
-cp -r tf2-medic-pack ~/.openpeon/packs/tf2-medic
+cp -r peon-ping-tf2-medic-pack ~/.openpeon/packs/tf2-medic
 ```
 
 Or symlink it:
 
 ```bash
-ln -s /path/to/tf2-medic-pack ~/.openpeon/packs/tf2-medic
+ln -s /path/to/peon-ping-tf2-medic-pack ~/.openpeon/packs/tf2-medic
 ```
 
 ## Categories
