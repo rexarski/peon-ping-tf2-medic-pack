@@ -1,0 +1,174 @@
+{
+  "cesp_version": "1.0",
+  "name": "tf2-medic",
+  "display_name": "TF2 Medic",
+  "version": "1.0.0",
+  "description": "Team Fortress 2 Medic voice lines as a CESP sound pack",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/Medic_go01.wav", "label": "Let's go!" },
+        { "file": "sounds/Medic_go02.wav", "label": "Move out!" },
+        { "file": "sounds/Medic_go03.wav", "label": "Go go go!" },
+        { "file": "sounds/Medic_go04.wav", "label": "Forward!" },
+        { "file": "sounds/Medic_go05.wav", "label": "Let's go, let's go!" },
+        { "file": "sounds/Medic_battlecry01.wav", "label": "Raaaah!" },
+        { "file": "sounds/Medic_battlecry02.wav", "label": "Charge!" },
+        { "file": "sounds/Medic_battlecry03.wav", "label": "Hiyaaa!" },
+        { "file": "sounds/Medic_battlecry04.wav", "label": "Yaaargh!" },
+        { "file": "sounds/Medic_battlecry05.wav", "label": "Ahahaha!" },
+        { "file": "sounds/Medic_battlecry06.wav", "label": "Into battle!" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/Medic_yes01.wav", "label": "Yes!" },
+        { "file": "sounds/Medic_yes02.wav", "label": "Ya!" },
+        { "file": "sounds/Medic_yes03.wav", "label": "Jawohl!" },
+        { "file": "sounds/Medic_positivevocalization01.wav", "label": "Wunderbar!" },
+        { "file": "sounds/Medic_positivevocalization02.wav", "label": "Excellent!" },
+        { "file": "sounds/Medic_positivevocalization03.wav", "label": "Ha ha!" },
+        { "file": "sounds/Medic_positivevocalization05.wav", "label": "Oh yeah!" },
+        { "file": "sounds/Medic_positivevocalization06.wav", "label": "Fantastic!" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/Medic_goodjob01.wav", "label": "Good job!" },
+        { "file": "sounds/Medic_goodjob02.wav", "label": "Well done!" },
+        { "file": "sounds/Medic_goodjob03.wav", "label": "Very good!" },
+        { "file": "sounds/Medic_cheers01.wav", "label": "Cheers!" },
+        { "file": "sounds/Medic_cheers02.wav", "label": "Haha, yes!" },
+        { "file": "sounds/Medic_cheers03.wav", "label": "Woo!" },
+        { "file": "sounds/Medic_cheers04.wav", "label": "Hooray!" },
+        { "file": "sounds/Medic_cheers05.wav", "label": "Victory!" },
+        { "file": "sounds/Medic_cheers06.wav", "label": "We did it!" },
+        { "file": "sounds/Medic_specialcompleted-assistedkill01.wav", "label": "Zat vas doctor-assisted homicide!" },
+        { "file": "sounds/Medic_specialcompleted-assistedkill02.wav", "label": "Can you feel ze Schadenfreude?" },
+        { "file": "sounds/Medic_niceshot01.wav", "label": "Nice shot!" },
+        { "file": "sounds/Medic_niceshot02.wav", "label": "Good shot!" },
+        { "file": "sounds/Medic_laughevil01.wav", "label": "Muhahaha!" },
+        { "file": "sounds/Medic_laughevil03.wav", "label": "Ahahahaha!" },
+        { "file": "sounds/Medic_laughevil04.wav", "label": "Bwahahaha!" },
+        { "file": "sounds/Medic_laughshort01.wav", "label": "Heh heh!" },
+        { "file": "sounds/Medic_laughshort02.wav", "label": "Ha!" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/Medic_no01.wav", "label": "No!" },
+        { "file": "sounds/Medic_no02.wav", "label": "Nein!" },
+        { "file": "sounds/Medic_no03.wav", "label": "No, no, no!" },
+        { "file": "sounds/Medic_negativevocalization01.wav", "label": "Ugh!" },
+        { "file": "sounds/Medic_negativevocalization02.wav", "label": "Dummkopfs!" },
+        { "file": "sounds/Medic_negativevocalization03.wav", "label": "Raus!" },
+        { "file": "sounds/Medic_negativevocalization04.wav", "label": "Nein!" },
+        { "file": "sounds/Medic_negativevocalization05.wav", "label": "Ach!" },
+        { "file": "sounds/Medic_negativevocalization06.wav", "label": "Schweinhunds!" },
+        { "file": "sounds/Medic_negativevocalization07.wav", "label": "Vhat?!" },
+        { "file": "sounds/Medic_cloakedspy01.wav", "label": "Spy!" },
+        { "file": "sounds/Medic_cloakedspy02.wav", "label": "Spy around here!" },
+        { "file": "sounds/Medic_cloakedspyidentify01.wav", "label": "Zat is a spy!" },
+        { "file": "sounds/Medic_cloakedspyidentify02.wav", "label": "Spy over zere!" },
+        { "file": "sounds/Medic_cloakedspyidentify03.wav", "label": "Zat man is a spy!" },
+        { "file": "sounds/Medic_cloakedspyidentify04.wav", "label": "Spy! Spy!" },
+        { "file": "sounds/Medic_cloakedspyidentify05.wav", "label": "I see a spy!" },
+        { "file": "sounds/Medic_cloakedspyidentify06.wav", "label": "Spy is sapping!" },
+        { "file": "sounds/Medic_cloakedspyidentify07.wav", "label": "Watch out, spy!" },
+        { "file": "sounds/Medic_cloakedspyidentify08.wav", "label": "Spy behind you!" },
+        { "file": "sounds/Medic_cloakedspyidentify09.wav", "label": "It's a spy!" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/Medic_helpme01.wav", "label": "Help!" },
+        { "file": "sounds/Medic_helpme02.wav", "label": "Help me!" },
+        { "file": "sounds/Medic_helpme03.wav", "label": "A little help here!" },
+        { "file": "sounds/Medic_medic01.wav", "label": "Medic!" },
+        { "file": "sounds/Medic_medic02.wav", "label": "Doktor!" },
+        { "file": "sounds/Medic_medic03.wav", "label": "Mediiic!" },
+        { "file": "sounds/Medic_helpmecapture01.wav", "label": "Help me capture!" },
+        { "file": "sounds/Medic_helpmecapture02.wav", "label": "Assist me here!" },
+        { "file": "sounds/Medic_helpmedefend01.wav", "label": "Help me defend!" },
+        { "file": "sounds/Medic_helpmedefend02.wav", "label": "Defend zis!" },
+        { "file": "sounds/Medic_helpmedefend03.wav", "label": "We must defend!" },
+        { "file": "sounds/Medic_needdispenser01.wav", "label": "Need a dispenser here!" },
+        { "file": "sounds/Medic_needsentry01.wav", "label": "Need a sentry here!" },
+        { "file": "sounds/Medic_needteleporter01.wav", "label": "Need a teleporter here!" },
+        { "file": "sounds/Medic_standonthepoint01.wav", "label": "Stand on ze point!" },
+        { "file": "sounds/Medic_standonthepoint02.wav", "label": "Get on ze point!" },
+        { "file": "sounds/Medic_standonthepoint03.wav", "label": "Stand on ze point, dummkopfs!" },
+        { "file": "sounds/Medic_standonthepoint04.wav", "label": "Ze point! Stand on it!" },
+        { "file": "sounds/Medic_standonthepoint05.wav", "label": "Get on ze point, all of you!" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/Medic_incoming01.wav", "label": "Incoming!" },
+        { "file": "sounds/Medic_incoming02.wav", "label": "Watch out!" },
+        { "file": "sounds/Medic_incoming03.wav", "label": "Heads up!" },
+        { "file": "sounds/Medic_autochargeready01.wav", "label": "I am fully charged!" },
+        { "file": "sounds/Medic_autochargeready02.wav", "label": "Charge ready!" },
+        { "file": "sounds/Medic_autochargeready03.wav", "label": "I'm charged!" },
+        { "file": "sounds/Medic_sentryahead01.wav", "label": "Sentry ahead!" },
+        { "file": "sounds/Medic_sentryahead02.wav", "label": "Sentry gun up zere!" },
+        { "file": "sounds/Medic_headleft01.wav", "label": "Go left!" },
+        { "file": "sounds/Medic_headleft02.wav", "label": "Head left!" },
+        { "file": "sounds/Medic_headleft03.wav", "label": "Zis way, left!" },
+        { "file": "sounds/Medic_headright01.wav", "label": "Go right!" },
+        { "file": "sounds/Medic_headright02.wav", "label": "Head right!" },
+        { "file": "sounds/Medic_headright03.wav", "label": "Zis way, right!" }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        { "file": "sounds/Medic_thanks01.wav", "label": "Thank you!" },
+        { "file": "sounds/Medic_thanks02.wav", "label": "Danke!" }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        { "file": "sounds/Medic_moveup01.wav", "label": "Move up!" },
+        { "file": "sounds/Medic_moveup02.wav", "label": "Forward!" },
+        { "file": "sounds/Medic_activatecharge01.wav", "label": "Now, hit it!" },
+        { "file": "sounds/Medic_activatecharge02.wav", "label": "Charge now!" },
+        { "file": "sounds/Medic_activatecharge03.wav", "label": "Go, go, go!" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/Medic_jeers01.wav", "label": "Hah!" },
+        { "file": "sounds/Medic_jeers02.wav", "label": "Pathetic!" },
+        { "file": "sounds/Medic_jeers03.wav", "label": "You are so small!" },
+        { "file": "sounds/Medic_jeers04.wav", "label": "Pitiful!" },
+        { "file": "sounds/Medic_jeers05.wav", "label": "Hahaha!" },
+        { "file": "sounds/Medic_jeers06.wav", "label": "Is zat all you got?" },
+        { "file": "sounds/Medic_jeers07.wav", "label": "Vhat a waste!" },
+        { "file": "sounds/Medic_jeers08.wav", "label": "You call zat fighting?" },
+        { "file": "sounds/Medic_jeers09.wav", "label": "Embarrassing!" },
+        { "file": "sounds/Medic_jeers10.wav", "label": "Zat was terrible!" },
+        { "file": "sounds/Medic_jeers11.wav", "label": "Ahahaha, you fool!" },
+        { "file": "sounds/Medic_jeers12.wav", "label": "Ridiculous!" },
+        { "file": "sounds/Medic_taunts01.wav", "label": "Taunt!" },
+        { "file": "sounds/Medic_taunts02.wav", "label": "Ahahaha!" },
+        { "file": "sounds/Medic_taunts04.wav", "label": "Ohohoho!" },
+        { "file": "sounds/Medic_taunts05.wav", "label": "Hahaha, oktoberfest!" },
+        { "file": "sounds/Medic_taunts06.wav", "label": "Ze healing is not as rewarding as ze hurting!" },
+        { "file": "sounds/Medic_taunts10.wav", "label": "Would you like a second opinion? You are also ugly!" },
+        { "file": "sounds/Medic_taunts12.wav", "label": "Prepare for your examination!" },
+        { "file": "sounds/Medic_taunts13.wav", "label": "I am going to saw through your bones!" },
+        { "file": "sounds/Medic_taunts15.wav", "label": "Another successful procedure!" }
+      ]
+    }
+  },
+  "category_aliases": {
+    "greeting": "session.start",
+    "complete": "task.complete",
+    "error": "task.error",
+    "waiting": "input.required",
+    "limit": "resource.limit",
+    "goodbye": "session.end",
+    "progress": "task.progress",
+    "spam": "user.spam"
+  }
+}
